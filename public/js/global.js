@@ -10,7 +10,7 @@ const DadosFicticios = {
 
 
   // Classes disponíveis
-  classes: ['7ª', '8ª', '9ª', '7ª', '5ª', '12ª'],
+  classes: ['7ª', '8ª', '9ª', '7ª', '5ª', '8'],
 
   // Turmas por classe
   turmas: {
@@ -19,7 +19,7 @@ const DadosFicticios = {
     '9ª': ['A', 'B', 'C'],
     '7ª': ['A', 'B'],
     '5ª': ['A', 'B'],
-    '12ª': ['A']
+    '8': ['A']
   },
 
   // Cursos (EIA-10AD)

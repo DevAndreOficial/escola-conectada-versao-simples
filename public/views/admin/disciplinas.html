@@ -237,8 +237,8 @@
                   <option value="">Todos</option>
                   <option>7ª</option>
                   <option>5ª</option>
-                  <option>12ª</option>
-                  <option>13ª</option>
+                  <option>8</option>
+                  <option>4ª</option>
                 </select>
               </div>
               <div class="col-md-3">
@@ -256,21 +256,20 @@
                   <tr>
                     <th>Código</th>
                     <th>Disciplina</th>
-                    <th>Diretor de Turma</th>
-                    <th>Curso</th>
+                    <th>Professor</th>
+                    
                     <th>Ações</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td>FIS-2026</td>
-                    <td>Física</td>
+                    <td>Física, Matemática...</td>
                     <td>Carlos Mendes</td>
-                    <td>Informática, Electrónica</td>
                     <td>
                       <a href="disciplina-detalhes.html" class="btn btn-sm btn-outline-info me-1">Ver</a>
                       <button class="btn btn-sm btn-outline-secondary me-1 btn-edit" data-bs-toggle="modal"
-                        data-bs-target="#turmaModal" data-codigo="EIA-11BD" data-curso="Electrónica"
+                        data-bs-target="#turmaModal" data-codigo="AD" data-curso="Electrónica"
                         data-ciclo="EIA-10AD" data-prof="Carlos Mendes" data-num="28">Editar</button>
                       <button class="btn btn-sm btn-outline-danger">Eliminar</button>
                     </td>
@@ -280,7 +279,7 @@
                     <td>QUIM-204</td>
                     <td>Química</td>
                     <td>Ana Paula</td>
-                    <td>Ciências Físicas e Biológicas</td>
+                   
                     <td>
                       <a href="disciplina-detalhes.html" class="btn btn-sm btn-outline-info me-1">Ver</a>
                       <button class="btn btn-sm btn-outline-secondary me-1 btn-edit" data-bs-toggle="modal"
@@ -316,29 +315,7 @@
                     <input id="turmaNome" class="form-control" placeholder="Ex: Física, Matemática">
                   </div>
                   <div class="row">
-                    <div class="col-md-6">
-                      <div class="mb-3">
-                        <label class="form-label">Cursos Relacionados</label>
-                        <div class="border rounded p-2" style="max-height: 150px; overflow-y: auto;">
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="cur_inf" value="Informática" name="cursos">
-                            <label class="form-check-label" for="cur_inf">Informática</label>
-                          </div>
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="cur_adm" value="Administração" name="cursos">
-                            <label class="form-check-label" for="cur_adm">Administração</label>
-                          </div>
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="cur_ele" value="Eletrónica" name="cursos">
-                            <label class="form-check-label" for="cur_ele">Eletrónica</label>
-                          </div>
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="cur_con" value="Contabilidade" name="cursos">
-                            <label class="form-check-label" for="cur_con">Contabilidade</label>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    
                     <div class="col-md-6">
                       <div class="mb-3">
                         <label class="form-label">Classes</label>
@@ -352,8 +329,8 @@
                             <label class="form-check-label" for="cls_11">INFGEST-11AD</label>
                           </div>
                           <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="cls_12" value="12ª Classe" name="classes">
-                            <label class="form-check-label" for="cls_12">12ª Classe</label>
+                            <input class="form-check-input" type="checkbox" id="cls_12" value="8 Classe" name="classes">
+                            <label class="form-check-label" for="cls_12">8 Classe</label>
                           </div>
                         </div>
                       </div>
