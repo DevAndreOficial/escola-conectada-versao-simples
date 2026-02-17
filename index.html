@@ -161,14 +161,12 @@
         { username: 'admin', password: 'admin123', profile: 'admin' },
         { username: 'prof1', password: 'prof123', profile: 'professor' },
         { username: 'enc1', password: 'enc123', profile: 'encarregado' },
-        { username: 'sec1', password: 'sec123', profile: 'secretario' }
       ];
 
       const redirectMap = {
         'admin': 'public/views/admin/dashboard.html',
         'professor': 'public/views/professor/dashboard.html',
         'encarregado': 'public/views/encarregado/dashboard.html',
-        'secretario': 'public/views/secretario/dashboard.html'
       };
 
       // Profile selection removed: logic now relies only on credential detection
