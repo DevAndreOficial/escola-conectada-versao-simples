@@ -10,15 +10,15 @@ const DadosFicticios = {
 
 
   // Classes disponíveis
-  classes: ['7ª', '8ª', '9ª', '10ª', '11ª', '12ª'],
+  classes: ['7ª', '8ª', '9ª', '7ª', '5ª', '12ª'],
 
   // Turmas por classe
   turmas: {
     '7ª': ['A', 'B', 'C'],
     '8ª': ['A', 'B'],
     '9ª': ['A', 'B', 'C'],
-    '10ª': ['A', 'B'],
-    '11ª': ['A', 'B'],
+    '7ª': ['A', 'B'],
+    '5ª': ['A', 'B'],
     '12ª': ['A']
   },
 
@@ -95,7 +95,7 @@ const DadosFicticios = {
     turmas: [
       { classe: '7ª', turma: 'A', disciplina: 'Matemática' },
       { classe: '8ª', turma: 'B', disciplina: 'Matemática' },
-      { classe: '10ª', turma: 'A', disciplina: 'Física' }
+      { classe: '7ª', turma: 'A', disciplina: 'Física' }
     ]
   },
   encarregadoLogado: {
@@ -105,7 +105,7 @@ const DadosFicticios = {
     email: 'maria.santos@email.ao',
     educandos: [
       { nome: 'Ana Maria Santos', classe: '7ª', turma: 'A' },
-      { nome: 'Pedro João Santos', classe: '10ª', turma: 'A' }
+      { nome: 'Pedro João Santos', classe: '7ª', turma: 'A' }
     ]
   },
 
